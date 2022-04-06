@@ -6,7 +6,7 @@
 
 # Kustomize란?
 * 쿠버네티스 리소스를 쿠버네티스 문법에 구애받지 않고 변경(생성, 수정 등)합니다.
-* kubectl v1.4?버전부터 내장되어 kustomize 명령어가 내장되어 있습니다.
+* kubectl v1.14버전부터 내장되어 kustomize 명령어가 내장되어 있습니다.
 
 # 기본 설정
 * kustomization.yaml파일을 생성하면 모든 준비가 끝입니다.
