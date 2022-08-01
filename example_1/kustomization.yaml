@@ -1,0 +1,6 @@
+bases:
+  - pod.yaml
+images:
+  - name: nginx
+    newName: nginx
+    newTag: 1.23.1
