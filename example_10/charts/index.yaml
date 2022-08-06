@@ -3,12 +3,12 @@ entries:
   nginx-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T21:03:14.757439+09:00"
+    created: "2022-08-06T21:06:54.611033+09:00"
     description: A Helm chart for Kubernetes
     digest: 7c5be48675310d554aa2cc98c2cf995345f26387284f08545e09ee4b88ff1e1f
     name: nginx-demo
     type: application
     urls:
-    - https://github.com/choisungwook/kustomize-example/example_10/charts/nginx-demo-0.1.0.tgz
+    - https://github.com/choisungwook/kustomize-example/tree/main/example_10/charts/nginx-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-06T21:03:14.756654+09:00"
+generated: "2022-08-06T21:06:54.609479+09:00"
