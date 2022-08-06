@@ -1,0 +1,5 @@
+resources:
+  - deployment.yaml
+replicas:
+  - name: nginx-merge-demo
+    count: 5

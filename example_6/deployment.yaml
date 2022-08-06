@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-merge-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-merge-demo
+  template:
+    metadata:
+      labels:
+        app: nginx-merge-demo
+    spec:
+      containers:
+      - name: nginx-merge-demo
+        image: nginx
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
