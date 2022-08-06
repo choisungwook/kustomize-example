@@ -1,0 +1,14 @@
+helmChartInflationGenerator:
+- chartName: nginx-demo
+  chartRepoUrl: https://choisungwook.github.io/kustomize-example/charts
+  chartVersion: 0.1.0
+  releaseName: test
+  releaseNamespace: ttt # 무시됨
+
+# helmCharts:
+# - name: nginx-demo
+#   includeCRDs: false
+#   releaseName: test
+#   namespace: ttt ## 무시됨
+#   version: 0.1.0
+#   repo: https://choisungwook.github.io/kustomize-example/charts
