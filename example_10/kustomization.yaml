@@ -12,3 +12,5 @@ helmChartInflationGenerator:
 #   namespace: ttt ## 무시됨
 #   version: 0.1.0
 #   repo: https://choisungwook.github.io/kustomize-example/charts
+
+namespace: dev
